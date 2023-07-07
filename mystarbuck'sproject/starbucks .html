@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Viga&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+    <title>Starbuck project</title>
+    <link rel="stylesheet" href="css/starbucks.css">
+  </head>
+  <body>
+
+    <header id="home">
+      <div class="left-side" >
+        <a href="#"> <img src="img\logo.png" alt=""> </a>
+      </div>
+      <div class="right-side ">
+        <div class="nav-link-wrapper"> <a href="#home">Home</a> </div>
+        <div class="nav-link-wrapper"> <a href="#menu">Menu</a> </div>
+        <div class="nav-link-wrapper"> <a href="#new">About us</a> </div>
+        <div class="nav-link-wrapper"> <a href="#contact">Contact</a> </div>
+      </div>
+    </header>
+
+    <div class="container" >
+
+      <div class="left-side" >
+        <h1>It's not just Coffee <br>
+          It's <span class = "green"> Starbucks </span>
+        </h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque
+           sunt cumque pariatur sint dignissimos odio sit facilis porro veritatis
+           earum itaque similique voluptatem dolores est ipsum, sequi non temporibus,
+           quae.</p>
+        <a href="">Learn More</a>
+      </div>
+      <div class="right-side">
+        <img src="img\thumb2.png" id="bottom" alt="" class = "starbucks">
+        <div class="box">
+          <a href="https://www.facebook.com/ibaco/"> <img class = "facebook" src="img\facebook.png" alt=""></a>
+          <a href="https://www.instagram.com/starbucks/?hl=en"> <img src="img\instagram.png" alt=""></a>
+          <a href="https://twitter.com/Starbucks?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"> <img src="img\twitter.png" alt=""></a>
+        </div>
+      </div>
+    </div>
+    <div class="thumb">
+      <a href ="#bottom"><img id = "bottom" src="img/thumb1.png" onclick="imgSlider('img/img1.png');"> </a>
+      <a href="#bottom"><img src="img/thumb2.png" onclick="imgSlider('img/img2.png');"> </a>
+      <a href="#bottom"><img src="img/thumb3.png" onclick="imgSlider('img/img3.png');"> </a>
+    </div>
+    <div class="conatainer">
+      <h1 align="center" id="menu">MENU LIST OF Coffee</h1>
+      <div class="flex">
+          <div class="card">
+              <img src="https://source.unsplash.com/1600x1000/?coffee" class="card-img" alt="">
+              <div class="card-header">
+                  <h3>coffee</h3>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-bookmark" viewBox="0 0 16 16">
+                  <path d="M2 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v13.5a.5.5 0 0 1-.777.416L8 13.101l-5.223 2.815A.5.5 0 0 1 2 15.5V2zm2-1a1 1 0 0 0-1 1v12.566l4.723-2.482a.5.5 0 0 1 .554 0L13 14.566V2a1 1 0 0 0-1-1H4z"/>
+                </svg>    
+              </div>
+              <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, ducimus.</p>
+          </div>
+          <div class="card">
+              <img src="https://source.unsplash.com/1600x1000/?shakes" class="card-img" alt="">
+              <div class="card-header">
+                  <h3>shakes</h3>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-bookmark" viewBox="0 0 16 16">
+                  <path d="M2 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v13.5a.5.5 0 0 1-.777.416L8 13.101l-5.223 2.815A.5.5 0 0 1 2 15.5V2zm2-1a1 1 0 0 0-1 1v12.566l4.723-2.482a.5.5 0 0 1 .554 0L13 14.566V2a1 1 0 0 0-1-1H4z"/>
+                </svg>    
+              </div>
+              <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, ducimus.</p>
+          </div>
+          <div class="card">
+              <img src="https://source.unsplash.com/1600x1000/?icecoffee" class="card-img" alt="">
+              <div class="card-header">
+                  <h3>ICE-coffee</h3>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-bookmark" viewBox="0 0 16 16">
+                  <path d="M2 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v13.5a.5.5 0 0 1-.777.416L8 13.101l-5.223 2.815A.5.5 0 0 1 2 15.5V2zm2-1a1 1 0 0 0-1 1v12.566l4.723-2.482a.5.5 0 0 1 .554 0L13 14.566V2a1 1 0 0 0-1-1H4z"/>
+                </svg>    
+              </div>
+              <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, ducimus.</p>
+          </div>
+          <div class="card">
+              <img src="https://source.unsplash.com/1600x1000/?cappuccino," class="card-img" alt="">
+              <div class="card-header">
+                  <h3>cappuccino</h3>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-bookmark" viewBox="0 0 16 16">
+                  <path d="M2 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v13.5a.5.5 0 0 1-.777.416L8 13.101l-5.223 2.815A.5.5 0 0 1 2 15.5V2zm2-1a1 1 0 0 0-1 1v12.566l4.723-2.482a.5.5 0 0 1 .554 0L13 14.566V2a1 1 0 0 0-1-1H4z"/>
+                </svg>    
+              </div>
+              <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, ducimus.</p>
+              
+          </div>
+      </div>
+      
+    <div class="conatainer">
+      
+      <div class="flex">
+          <div class="card">
+              <img src="https://source.unsplash.com/1600x1000/?Americano " class="card-img" alt="">
+              <div class="card-header">
+                  <h3>Americano </h3>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-bookmark" viewBox="0 0 16 16">
+                  <path d="M2 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v13.5a.5.5 0 0 1-.777.416L8 13.101l-5.223 2.815A.5.5 0 0 1 2 15.5V2zm2-1a1 1 0 0 0-1 1v12.566l4.723-2.482a.5.5 0 0 1 .554 0L13 14.566V2a1 1 0 0 0-1-1H4z"/>
+                </svg>    
+              </div>
+              <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, ducimus.</p>
+          </div>
+          <div class="card">
+              <img src="https://source.unsplash.com/1600x1000/?Espresso" class="card-img" alt="">
+              <div class="card-header">
+                  <h3>Espresso</h3>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-bookmark" viewBox="0 0 16 16">
+                  <path d="M2 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v13.5a.5.5 0 0 1-.777.416L8 13.101l-5.223 2.815A.5.5 0 0 1 2 15.5V2zm2-1a1 1 0 0 0-1 1v12.566l4.723-2.482a.5.5 0 0 1 .554 0L13 14.566V2a1 1 0 0 0-1-1H4z"/>
+                </svg>    
+              </div>
+              <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, ducimus.</p>
+          </div>
+          <div class="card">
+              <img src="https://source.unsplash.com/1600x1000/?Mocha" class="card-img" alt="">
+              <div class="card-header">
+                  <h3>Mocha</h3>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-bookmark" viewBox="0 0 16 16">
+                  <path d="M2 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v13.5a.5.5 0 0 1-.777.416L8 13.101l-5.223 2.815A.5.5 0 0 1 2 15.5V2zm2-1a1 1 0 0 0-1 1v12.566l4.723-2.482a.5.5 0 0 1 .554 0L13 14.566V2a1 1 0 0 0-1-1H4z"/>
+                </svg>    
+              </div>
+              <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, ducimus.</p>
+          </div>
+          <div class="card">
+              <img src="https://source.unsplash.com/1600x1000/?Frappuccino And Frappe" class="card-img" alt="">
+              <div class="card-header">
+                  <h3>Frappuccino And Frappe"</h3>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-bookmark" viewBox="0 0 16 16">
+                  <path d="M2 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v13.5a.5.5 0 0 1-.777.416L8 13.101l-5.223 2.815A.5.5 0 0 1 2 15.5V2zm2-1a1 1 0 0 0-1 1v12.566l4.723-2.482a.5.5 0 0 1 .554 0L13 14.566V2a1 1 0 0 0-1-1H4z"/>
+                </svg>    
+              </div>
+              <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, ducimus.</p>
+              
+          </div>
+      </div>
+    <div class="container3">
+      <h1 id="new">About us</h1>
+      <marquee  behavior="alternate" direction="left">
+      <img src="img/coffeebag.avif" style="border-radius: 10px;" >
+      </marquee>
+      <p align="center"> Let us open this edition with a fun fact: The word cappuccino, meaning ‘little hood’ entered the lexicon in 1948. And another: The word Frappuccino® is a Starbucks trademark, an exclusive collection of iced coffee blended with syrups, toppings, and other ingredients to form exciting flavours like the Java Chip Frappuccino®. 
+
+
+      With that, let us look into how these inventions found their place in the United States and elsewhere. It was the year 1966. American coffee was still not in the best shape. In fact, Alfred Peet, the son of a Dutch coffee roaster, found the coffee to be of such poor quality that he started roasting his own — and soon opened Peet’s Coffee & Tea in Berkeley, California. 
+      
+      
+      That’s when specialty coffee really took off in the United States.  He developed a growing audience for dark-roasted coffee and mentored Jerry Baldwin, Zev Siegl, and Gordon Bowker in his roasting style. These three young men would become the founders of Starbucks. 
+      
+      
+      Did You Know? The name ‘Starbucks’ is referenced from the first mate (Starbuck) in Melville’s novel Moby Dick. 
+      
+      
+      In the year 1971, these three young men started the first Starbucks store in Seattle’s Pike Place Market. The name evoked the romance of the high seas and the seafaring tradition of early coffee traders.  In 1971, Starbucks opened its first store in Seattle’s Pike Place Market. The small shop was revered for its fine coffee, friendly baristas, and unique experience. Designed to be a comfortable abode with soft music and a straightforward allure, the experience caught on. 
+      
+      
+      Starbucks soon expanded in 1973 to establish the first roasting plant in Seattle. From there, Starbucks has constantly evolved with innovations that have allowed us to remain ahead of the curve. We’ve expanded to over 80 countries always striving to inspire and nurture the human spirit. 
+      
+      
+       And the rest, as we say, is our history. </p>
+    </div>
+    <div class="container4">
+      <h1 align="center"id="contact">contact us</h1>
+    </div>
+    <div class="container5">
+      <div style="text-align:center">
+        <p>Swing by for a cup of coffee, or leave us a message:</p>
+      </div>
+      <div class="row">
+        <div class="column">
+          <img src="img/maplocation.jpg" style="width:75%">
+        </div>
+        <div class="column">
+          <form action="">
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="Your name..">
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+            <label for="country">Country</label>
+            <select id="country" name="country">
+              <option value="australia">Australia</option>
+              <option value="canada">Canada</option>
+              <option value="usa">USA</option>
+            </select>
+            <label for="subject">Subject</label>
+            <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
+            <input type="submit" value="Submit">
+          </form>
+        </div>
+      </div>
+    </div>
+    <script>
+function imgSlider(anything){
+  document.querySelector('.starbucks').src = anything;
+}
+    </script>
+  </body>
+</html>
+
